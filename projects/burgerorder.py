@@ -56,3 +56,36 @@ elif select_size == "L":
 
     final_bill = L + mush_large + cheese
     print(f"your final bill is ${final_bill}")
+
+
+# Another version for same result
+
+# price = 0
+# size = input("enter size: ")
+# if size == "M":
+#     price1 = price + 5
+#     mushroom = input("do u want to add mushroom y/n: ")
+#     if mushroom == "y":
+#         price1 += 1
+#     cheese = input("do u want to add cheese? y/n: ")
+#     if cheese == "y":
+#         price1 += 1
+#     print(f"price is {price1}")
+# elif size == "N":
+#     price2 = price + 8
+#     mushroom = input("do u want to add mushroom y/n: ")
+#     if mushroom == "y":
+#         price2 += 1
+#     cheese = input("do u want to add cheese? y/n:  ")
+#     if cheese == "y":
+#         price2 += 1
+#         print(f"price is {price2}")
+# else:
+#     price3 = price + 10
+#     mushroom = input("do u want to add mushroom y/n: ")
+#     if mushroom == "y":
+#         price3 += 1
+#     cheese = input("do u want to add cheese? y/n: ")
+#     if cheese == "y":
+#         price3 += 1
+#         print(f"price is {price3}")
